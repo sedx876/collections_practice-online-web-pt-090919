@@ -42,9 +42,9 @@ end
 def add_s(array)
   array.collect do |word|
     if array[1] == word
-     puts word
+      word
     else
-    puts  word + "s"
+      word + "s"
     end
   end
-end 
+end
